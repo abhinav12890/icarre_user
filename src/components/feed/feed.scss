@@ -1,0 +1,15 @@
+.feed{
+    flex:5.5;
+    .feedWrapper{
+        padding: 20px;
+        ul{
+            list-style-type: none;
+           // text-align: center;
+            li{
+               // list-style-type: none;
+                text-align: center;
+            }
+        }
+    }
+}
+

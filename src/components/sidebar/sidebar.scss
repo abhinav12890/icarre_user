@@ -1,0 +1,88 @@
+.sidebar{
+     
+    flex: 1;
+    border-right: 0.5px solid rgb(233, 227, 227);
+    min-height: 100vh;
+    .top{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#0096FF;
+        .logo{
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+        }
+    }
+    hr{
+        height: 0;
+        border: 0.5px solid rgb(233, 227, 227);
+    }
+    .center{
+        padding-left: 10px;
+        ul{
+            list-style: none;
+            margin: 20px 0px;
+            padding:0px;
+
+            li{
+                display: flex;
+                align-items: center;
+                margin: 20px 0px;
+                padding: 5px;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: rgb(181, 193, 245);
+                }
+                .Icon{
+                    font-size: 20px;
+                    color: rgb(0, 17, 253);
+                }
+                span{
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: #888;
+                    margin-left:10px;
+                }
+                .btn{
+                    background-color: #ffffff;
+                    border: none;
+                    color: #888;
+                    font-weight: 600;
+                    // padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    // display: inline-block;
+                    font-size: 15px;
+                    cursor: pointer;
+
+                }
+            }
+        }
+    
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+
+        .colorOption{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid rgb(0, 17, 253);
+            ;
+            cursor:pointer;
+            margin: 5px;
+
+            &:nth-child(1){
+                background-color: whitesmoke;
+            }
+            &:nth-child(2){
+                background-color: #333;
+            }
+        }
+    }
+}
